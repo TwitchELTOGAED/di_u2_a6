@@ -8,10 +8,10 @@ export default function LightSwitch() {
       }
     }
   
-    return (
-      <button onClick={handleClick()}>
-        Alterna las luces
-      </button>
-    );
-  }
+  return (
+    <button onClick={() => handleClick()}>
+      Alterna las luces
+    </button>
+  );
+}
   
